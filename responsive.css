@@ -1,0 +1,31 @@
+@media screen and (max-width:550px){
+    main section{
+        flex-direction: column;
+        width: 100%;
+    }
+    main section .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    main section:nth-child(2){
+        flex-flow: column wrap;
+    }
+
+    main section:nth-child(2) .card{
+        width: 100%;
+    }
+
+    main section:nth-child(3){
+        padding: 30px;
+    }
+    main section:nth-child(3) .card{
+        width: 100%;
+    }
+
+    main section:nth-child(4) .card{
+        width: calc(100% / 2 - 20px);
+    }
+}
+
