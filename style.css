@@ -17,6 +17,27 @@
     flex-grow: 2;
 }
 
+/* WIDTH CLASS */
+.w25{
+    width: 25%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.bg-viola{
+    background-color: rgb(122, 92, 255);
+}
+
+.bg-black{
+    background-color: rgb(43, 43, 43);
+}
+
 li{
     list-style: none;
 }
@@ -34,19 +55,51 @@ header ul{
 
 main section:nth-child(1){
     padding: 5% 20%;
-}
-
-.sfirts{
     gap: 20px;
     flex-wrap: wrap;
-    flex-grow: 1;
-    flex-direction: row;
 }
 
 .card{
     background-color: aquamarine;
     border-radius: 40px;
-    text-align: center;
-    padding: 10px;
-    width: auto;
+    height: 300px;
+}
+
+main section:nth-child(2){
+    padding: 30px 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+main section:nth-child(3){
+    padding: 5% 30%;
+    flex-direction: column;
+}
+
+main section:nth-child(3) .card{
+    margin-bottom: 30px;
+}
+
+main section:nth-child(4){
+    padding: 3% 20%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main section:nth-child(4) .card{
+    width: calc(100% / 3 - 20px);
+}
+
+main section:nth-child(5){
+    justify-content: center;
+    gap: 20px;
+    padding: 5% 0;
+}
+
+footer div:nth-child(1){
+    height: 200px;
+}
+
+footer div:nth-child(2){
+    height: 100px;
 }
