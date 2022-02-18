@@ -5,3 +5,44 @@
     font-family: sans-serif;
 }
 
+.flex{
+    display: flex;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    background-color: rgb(0, 110, 255);
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header ul{
+    gap: 30px;
+}
+
+main section:nth-child(1){
+    padding: 5% 20%;
+}
+
+.sfirts{
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.card{
+    background-color: aquamarine;
+    border-radius: 40px;
+    text-align: center;
+}
